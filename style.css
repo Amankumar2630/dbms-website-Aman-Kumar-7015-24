@@ -204,3 +204,29 @@ pre {
         font-size: 1.2rem;
     }
 }
+/* FIX FOR CATEGORY CARD CLICK + STRUCTURE */
+.category-card {
+    display: block; /* IMPORTANT FIX */
+    height: 100%;
+}
+
+/* ENSURE CONTENT ALIGNMENT */
+.category-card h3 {
+    margin-bottom: 8px;
+}
+
+.category-card p {
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+/* GRID ITEMS SAME HEIGHT */
+.categories-grid {
+    align-items: stretch;
+}
+
+/* SMOOTH HOVER FIX */
+.category-card:hover {
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
